@@ -5,4 +5,4 @@ test: $(EXT)
 	prove $(PROVEOPT:%=% )test/
 
 $(EXT):
-	git submodule update --init --recursive
+	git submodule update --init
