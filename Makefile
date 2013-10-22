@@ -1,8 +1,8 @@
-EXT := ext/test-more-bash
+EXT := ext/test-more-bash/lib
 
 .PHONY: test
 test: $(EXT)
 	prove $(PROVEOPT:%=% )test/
 
-EXT:
+$(EXT):
 	git submodule update --init --recursive
