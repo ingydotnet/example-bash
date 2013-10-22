@@ -1,0 +1,11 @@
+=head1 NAME
+
+example-bash - Example repo showing off test-more-bash.
+
+=head1 SYNOPSIS
+
+    > make test
+    > PROVEOPT=-v make test
+    > prove test/
+    > prove -v test/
+    > prove -v test/one.t
